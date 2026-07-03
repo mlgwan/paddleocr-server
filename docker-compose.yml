@@ -1,0 +1,10 @@
+services:
+  paddleocr:
+    build: .
+    ports:
+      - "8001:8001"
+
+    volumes:
+      - ./models:/root/.paddlex
+
+    restart: unless-stopped
