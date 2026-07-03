@@ -8,10 +8,10 @@ services:
       - ./models:/root/.paddlex
       
     networks:
-      - demo-projects_network
+      - nginx-demo-projects_demo-projects_network
 
     restart: unless-stopped
     
 networks:
-  demo-projects_network:
+  nginx-demo-projects_demo-projects_network:
     external: true
