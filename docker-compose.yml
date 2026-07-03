@@ -8,10 +8,10 @@ services:
       - ./models:/root/.paddlex
       
     networks:
-      - nginx-demo-projects_demo-projects_network
+      - ocr-internal
 
     restart: unless-stopped
     
 networks:
-  nginx-demo-projects_demo-projects_network:
+  ocr-internal:
     external: true
