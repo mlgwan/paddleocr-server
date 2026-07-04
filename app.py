@@ -46,7 +46,7 @@ cv2.setNumThreads(1)
 # -------------------------------------------------------------------
 
 MAX_UPLOAD_SIZE = 10 * 1024 * 1024      # 10 MB
-MAX_PIXELS = 12_000_000                 # 25 MP
+MAX_PIXELS = 25_000_000                 # 25 MP
 MAX_DIMENSION = 1600
 OCR_TIMEOUT = 10                        # seconds
 MAX_CONCURRENT_OCR = 2
