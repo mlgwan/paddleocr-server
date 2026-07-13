@@ -5,7 +5,7 @@ The /ocr endpoint allows single file upload and can be used to quickly test on a
 
 
 An endpoint for testing a single image is provided under [https://projects.ccl97.com/paddleocr/ocr](https://projects.ccl97.com/paddleocr/ocr) (POST)
-
+and can be tested in a browser under [https://projects.ccl97.com/paddleocr/docs](https://projects.ccl97.com/paddleocr/docs)
 # Example
 
 This image:
