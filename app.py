@@ -48,7 +48,7 @@ cv2.setNumThreads(1)
 MAX_UPLOAD_SIZE = 10 * 1024 * 1024      # 10 MB
 MAX_PIXELS = 25_000_000                 # 25 MP
 MAX_DIMENSION = 1600
-OCR_TIMEOUT = 30                        # seconds
+OCR_TIMEOUT = 60                        # seconds
 MAX_CONCURRENT_OCR = 2
 
 OCR_SEMAPHORE = asyncio.Semaphore(MAX_CONCURRENT_OCR)
